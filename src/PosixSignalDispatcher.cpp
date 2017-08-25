@@ -24,6 +24,7 @@
 #include <map>
 #include <sstream>
 #include <signal.h>
+#include <cerrno>
 
 
 namespace
