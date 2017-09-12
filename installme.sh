@@ -5,4 +5,4 @@ make -f Makefile.dist
 ./configure 
 make
 make install
-echo "export LD_LIBRARY_PATH=/usr/local/lib" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib" >> ~/.bashrc
